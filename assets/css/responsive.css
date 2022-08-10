@@ -1,0 +1,147 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .section__home-container {    
+        border-bottom: 2px solid #ccc;
+    }
+
+    .section__home-txt {
+        text-align: center;
+    }
+
+    .section__feature {
+        padding-top: 10px;
+    }
+
+    .section__feature-item {
+        margin-bottom: 60px;
+    }
+
+    .section__feature-item h3 {
+        margin: 15px 0 12px;
+    }
+
+    .section__select {
+        padding-top: 0;
+    }
+
+    .section__select-view h4 {
+        margin-top: 20px;
+    }
+
+    .section__banner-txt {
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .section__home {
+        padding-top: 50px;
+    }
+
+    .section__home-img {
+        width: 135%;
+        margin: 2% -110% -70px -115%;
+    }
+
+    .section__feature-item p {
+        padding: 0 12%;
+    }
+
+    .section__select-title p {
+        padding: 0 5%;
+    }
+
+    .section__select-img {
+        width: 98%;
+        max-width: 100%;
+    }
+
+    .section__banner-img {
+        width: 170%;
+        margin: 10% -110% -80px -80%;
+    }  
+
+    .section__i-pages-txt .col {
+        padding: 0;
+    }
+
+    .section__purchase .row .col {
+        padding: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header__logo-link {
+        margin-left: 15px;
+    }
+
+    .header__search {
+        margin-right: 15px;
+    }
+
+    .section__home {
+        padding-top: 40px;
+    }
+
+    .section__home-txt {
+        margin: 30px 20px;
+    }
+
+    .section__home-txt span {
+        font-size: 1.5rem;
+    }
+
+    .section__home-txt h1,
+    .section__banner-txt h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .section__home-txt p,
+    .section__banner-txt p {
+        font-size: 1.5rem;
+    }
+
+    .section__home-img {
+        width: 140%;
+        margin: -8% -110% -70px -100%;
+    }
+
+    .section__feature-item p {
+        font-size: 1.5rem;
+        padding: 0 15%;
+    }
+
+    .section__select-title h2 {
+        font-size: 3.8rem;
+    }
+
+    .section__select-title p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding: 0 10%;
+    }
+  
+    .section__banner-txt {
+        margin: 60px 20px;
+    }
+
+    .section__banner-img {
+        width: 235%;
+        margin: -5% -180% -80px -80%;
+    }
+
+    .section__i-pages-txt .col {
+        padding: 0 30px;
+    }
+
+    .section__purchase .row .col {
+        padding: 0 30px;
+    }
+
+    .section__purchase-txt h2 {
+        font-size: 4rem;
+    }
+}
